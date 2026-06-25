@@ -257,3 +257,56 @@ I have **not** committed or pushed. The branch is `feature/agent-review-improvem
 
 ---
 Auto report from Cursor monitor (scripts/agent-monitor-report.ps1)
+
+--- update 00:21:57 ---
+Android-Cast Claude Code Agent Monitor
+======================================
+Time:       2026-06-26 00:21:57
+Phase:      starting
+Script PID: 18860
+Branch:     feature/agent-review-improvements
+
+--- Recovery ---
+RECOVERED: claude-implement-review.ps1 is not running (phase=starting)
+Actions: restarted claude-implement-review.ps1 PID 18860; restarted keep-awake.ps1 PID 20504
+
+--- Claude quota ---
+  Resets:      04:54  (in 4h 32m)
+  Used:        $   4.3764  (105 msgs)
+
+--- Git ---
+## feature/agent-review-improvements...origin/feature/agent-review-improvements
+?? scripts/agent-monitor-report.ps1
+?? scripts/agent-monitor-reports.log
+?? scripts/agent-recovery-state.json
+?? scripts/agent-recovery.log
+?? scripts/agent-watchdog.ps1
+?? scripts/claude-run.log
+?? scripts/hourly-github-report.ps1
+?? scripts/keep-awake.ps1
+?? scripts/push-github-report.ps1
+?? scripts/restart-claude-agent.ps1
+Last local:  574467c feat: agent review improvements for plugin automation platform
+Last remote: 574467c feat: agent review improvements for plugin automation platform
+Changes:
+(no local code changes)
+
+--- claude-run.log (last 15 lines) ---
+
+I kept the existing Thai-comment / emoji style throughout, and left the pre-existing untracked `scripts/*` files alone.
+
+I have **not** committed or pushed. The branch is `feature/agent-review-improvements`. Want me to commit these changes and push + open the PR to `main`?
+[2026-06-26 00:06:36] [recovery] Agent restarted by watchdog (reason: claude-implement-review.ps1 is not running (phase=error))
+[2026-06-26 00:06:36] Checking Claude Code quota...
+[2026-06-26 00:06:41] Claude Code is available
+[2026-06-26 00:11:42] [recovery] Agent restarted by watchdog (reason: claude-implement-review.ps1 is not running (phase=starting))
+[2026-06-26 00:11:43] Checking Claude Code quota...
+[2026-06-26 00:11:47] Claude Code is available
+[2026-06-26 00:16:49] [recovery] Agent restarted by watchdog (reason: claude-implement-review.ps1 is not running (phase=starting))
+[2026-06-26 00:16:49] Checking Claude Code quota...
+[2026-06-26 00:16:54] Claude Code is available
+[2026-06-26 00:21:56] [recovery] Agent restarted by watchdog (reason: claude-implement-review.ps1 is not running (phase=starting))
+[2026-06-26 00:21:56] Checking Claude Code quota...
+
+---
+Auto report from Cursor monitor (scripts/agent-monitor-report.ps1)

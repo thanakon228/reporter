@@ -366,3 +366,41 @@ Changes:
 
 ---
 Auto report from Cursor monitor (scripts/agent-monitor-report.ps1)
+
+--- update 23:53:56 ---
+Android-Cast Claude Code Agent Monitor
+======================================
+Time:       2026-06-25 23:53:56
+Phase:      unknown
+Script PID: 12564
+Branch:     feature/agent-review-improvements
+
+--- Recovery ---
+RECOVERED: claude-implement-review.ps1 is not running (phase=script_not_running)
+Actions: restarted claude-implement-review.ps1 PID 12564; restarted keep-awake.ps1 PID 6504
+
+--- Claude quota ---
+  Resets:      23:54  (in 0m)
+  Used:        $  30.1373  (543 msgs)
+
+--- Git ---
+## feature/agent-review-improvements...origin/feature/agent-review-improvements
+ M scripts/claude-implement-review.ps1
+?? scripts/agent-monitor-report.ps1
+?? scripts/agent-monitor-reports.log
+?? scripts/agent-recovery-state.json
+?? scripts/agent-recovery.log
+?? scripts/agent-watchdog.ps1
+?? scripts/claude-run.log
+?? scripts/hourly-github-report.ps1
+?? scripts/keep-awake.ps1
+?? scripts/push-github-report.ps1
+?? scripts/restart-claude-agent.ps1
+Last local:  0b010d2 fix: ASCII-only PowerShell script for Claude Code automation
+Last remote: 0b010d2 fix: ASCII-only PowerShell script for Claude Code automation
+Changes:
+ scripts/claude-implement-review.ps1 | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- claude-run.log (last 15 lines) ---
+

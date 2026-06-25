@@ -277,3 +277,47 @@ Changes:
 
 ---
 Auto report from Cursor monitor (scripts/agent-monitor-report.ps1)
+
+--- update 23:46:09 ---
+Android-Cast Claude Code Agent Monitor
+======================================
+Time:       2026-06-25 23:46:08
+Phase:      waiting_for_quota
+Script PID: 11208
+Branch:     feature/agent-review-improvements
+
+--- Recovery ---
+Healthy (phase=waiting_for_quota, log age=3.3 min)
+
+--- Claude quota ---
+  Resets:      23:54  (in 8m)
+  Used:        $  30.1162  (542 msgs)
+
+--- Git ---
+## feature/agent-review-improvements...origin/feature/agent-review-improvements
+?? scripts/agent-monitor-report.ps1
+?? scripts/agent-monitor-reports.log
+?? scripts/agent-recovery-state.json
+?? scripts/agent-watchdog.ps1
+?? scripts/claude-run.log
+?? scripts/hourly-github-report.ps1
+?? scripts/keep-awake.ps1
+?? scripts/push-github-report.ps1
+?? scripts/restart-claude-agent.ps1
+Last local:  0b010d2 fix: ASCII-only PowerShell script for Claude Code automation
+Last remote: 0b010d2 fix: ASCII-only PowerShell script for Claude Code automation
+Changes:
+(no local code changes)
+
+--- claude-run.log (last 15 lines) ---
+[2026-06-25 23:12:24] Checking Claude Code quota...
+[2026-06-25 23:12:28] Rate limited - waiting 5 min (0 / 120 min)
+[2026-06-25 23:17:32] Rate limited - waiting 5 min (5 / 120 min)
+[2026-06-25 23:22:36] Rate limited - waiting 5 min (10 / 120 min)
+[2026-06-25 23:27:39] Rate limited - waiting 5 min (15 / 120 min)
+[2026-06-25 23:32:43] Rate limited - waiting 5 min (20 / 120 min)
+[2026-06-25 23:37:47] Rate limited - waiting 5 min (25 / 120 min)
+[2026-06-25 23:42:51] Rate limited - waiting 5 min (30 / 120 min)
+
+---
+Auto report from Cursor monitor (scripts/agent-monitor-report.ps1)
